@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_detail">
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_main"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/detail_image"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="Image"
+        android:src="@drawable/top_page_image"
+        />
+
+
+
+    <TextView
+        android:id="@+id/detail_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textSize="8pt"
+
+        android:layout_marginTop="220dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/title"
+        />
+
+        <TextView
+            android:id="@+id/watch_video_yoga"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:text="watch Video"
+
+            android:textColor="@color/subTitle"
+            android:textStyle="bold"
+            android:layout_marginTop="250dp"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/detail_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textSize="6pt"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="280dp"
+        android:gravity="center"
+        android:textStyle="italic"
+
+        android:textColor="@color/title"
+        />
+
+
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/title"
+            android:text="How many minute do you want to do?"/>
+
+        <EditText
+            android:id="@+id/input_minute"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="min"
+            android:gravity="center"
+            android:layout_marginLeft="140dp"
+            android:layout_marginRight="140dp"
+            android:layout_marginTop="70dp"
+            android:inputType="number"
+            android:ems="10"
+            android:background="@drawable/border_style"
+            />
+
+        <Button
+            android:id="@+id/addToList_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginRight="140dp"
+            android:gravity="center"
+            android:background="@drawable/button_style"
+            android:layout_marginTop="110dp"
+            android:textStyle="bold"
+            android:textColor="#4C5481"
+            android:text="Add List"
+
+            />
+
+    </FrameLayout>
+
+
+
+</LinearLayout>

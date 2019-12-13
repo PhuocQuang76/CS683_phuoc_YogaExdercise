@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_main"/>
+
+    <FrameLayout
+        android:id="@+id/user_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:id="@+id/user_detail_image"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:hint="Image"
+            android:src="@drawable/top_page_image" />
+
+
+        <TextView
+            android:id="@+id/user_detail_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:gravity="center"
+
+            android:text="@string/welcome"
+            android:textColor="@color/title"
+            android:textSize="8pt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/watch_video_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="180dp"
+
+            android:gravity="center"
+            android:textColor="@color/subTitle"
+            android:textStyle="bold"
+            android:text="wactch Video" />
+
+        <TextView
+            android:id="@+id/user_detail_summary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="220dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="@string/welcome"
+            android:textColor="@color/title"
+            android:textSize="6pt"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/input_minute_todo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="min"
+            android:inputType="number"
+            android:gravity="center"
+            android:layout_marginLeft="140dp"
+            android:layout_marginRight="140dp"
+            android:layout_marginTop="300dp"
+            android:background="@drawable/border_style"
+            />
+
+        <Button
+            android:id="@+id/clickShowHistory"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginRight="110dp"
+            android:gravity="center"
+            android:layout_marginTop="350dp"
+            android:onClick="clickShowHistory"
+            android:text="See history"
+            android:background="@drawable/button_style"
+
+            />
+
+    </FrameLayout>
+
+</LinearLayout>
+
+

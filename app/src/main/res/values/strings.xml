@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">YOGA</string>
+    <string name="sub_app_name"> Exercise</string>
+    <string name="welcome">Welcome to Yoga exercise</string>
+
+    <string name="action_share">Share</string>
+    <string name="userselected">User Selected</string>
+    <string name="yogalist">Yoga List</string>
+
+    <string name="test">
+
+            <string-array name="testname">
+                <item>Weather Forecast</item>
+                <item>Connect Me</item>
+                <item>What to Eat</item>
+                <item>Project Portal</item>
+                <item>Weather Forecast</item>
+                <item>Connect Me</item>
+                <item>What to Eat</item>
+                <item>Project Portal</item>
+                <item>Weather Forecast</item>
+                <item>Connect Me</item>
+                <item>What to Eat</item>
+                <item>Project Portal</item>
+            </string-array>
+        <string-array name="testname">
+            <item>Weather Forecast</item>
+            <item>Connect Me</item>
+            <item>What to Eat</item>
+            <item>Project Portal</item>
+            <item>Weather Forecast</item>
+            <item>Connect Me</item>
+            <item>What to Eat</item>
+            <item>Project Portal</item>
+            <item>Weather Forecast</item>
+            <item>Connect Me</item>
+            <item>What to Eat</item>
+            <item>Project Portal</item>
+        </string-array>
+        <string-array name="testname">
+            <item>Weather Forecast</item>
+            <item>Connect Me</item>
+            <item>What to Eat</item>
+            <item>Project Portal</item>
+            <item>Weather Forecast</item>
+            <item>Connect Me</item>
+            <item>What to Eat</item>
+            <item>Project Portal</item>
+            <item>Weather Forecast</item>
+            <item>Connect Me</item>
+            <item>What to Eat</item>
+            <item>Project Portal</item>
+        </string-array>
+        <string-array name="testname">
+            <item>Weather Forecast</item>
+            <item>Connect Me</item>
+            <item>What to Eat</item>
+            <item>Project Portal</item>
+            <item>Weather Forecast</item>
+            <item>Connect Me</item>
+            <item>What to Eat</item>
+            <item>Project Portal</item>
+            <item>Weather Forecast</item>
+            <item>Connect Me</item>
+            <item>What to Eat</item>
+            <item>Project Portal</item>
+        </string-array>
+        <string-array name="testname">
+            <item>Weather Forecast</item>
+            <item>Connect Me</item>
+            <item>What to Eat</item>
+            <item>Project Portal</item>
+            <item>Weather Forecast</item>
+            <item>Connect Me</item>
+            <item>What to Eat</item>
+            <item>Project Portal</item>
+            <item>Weather Forecast</item>
+            <item>Connect Me</item>
+            <item>What to Eat</item>
+            <item>Project Portal</item>
+        </string-array>
+        <string-array name="testname">
+            <item>Weather Forecast</item>
+            <item>Connect Me</item>
+            <item>What to Eat</item>
+            <item>Project Portal</item>
+            <item>Weather Forecast</item>
+            <item>Connect Me</item>
+            <item>What to Eat</item>
+            <item>Project Portal</item>
+            <item>Weather Forecast</item>
+            <item>Connect Me</item>
+            <item>What to Eat</item>
+            <item>Project Portal</item>
+        </string-array>
+    </string>
+
+
+
+</resources>

@@ -1,0 +1,89 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_detail"
+    tools:context="com.androiddev.termproject.UserSelectedListDetailFrameActivity"
+    >
+
+    <FrameLayout
+        android:id="@+id/yogaDetailContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/yogaDetailContainer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <Button
+                android:id="@+id/do_yoga_Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+
+                android:textStyle="bold"
+                android:background="@drawable/button_style"
+                android:onClick="clickDo"
+                android:text="START"
+                app:layout_constraintBottom_toBottomOf="parent"
+                tools:layout_editor_absoluteX="56dp" />
+
+            <Button
+                android:id="@+id/next_do_yoga_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="bottom"
+                android:textStyle="bold"
+                android:background="@drawable/button_style"
+                android:onClick="clickNext"
+                android:text="NEXT"
+                 />
+
+            <Button
+                android:id="@+id/quit_do_yoga_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textStyle="bold"
+                android:background="@drawable/button_style"
+                android:onClick="clickQuit"
+                android:text="RETURN"
+                app:layout_constraintBottom_toBottomOf="parent"
+                tools:layout_editor_absoluteX="271dp" />
+
+            <Button
+                android:id="@+id/delete_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textColor="#BE1E1E"
+                android:textStyle="italic"
+                android:background="@drawable/button_style"
+                android:onClick="clickDelete"
+                android:text="DELETE"
+                app:layout_constraintBottom_toBottomOf="parent"
+                tools:layout_editor_absoluteX="271dp" />
+        </LinearLayout>
+    </FrameLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
